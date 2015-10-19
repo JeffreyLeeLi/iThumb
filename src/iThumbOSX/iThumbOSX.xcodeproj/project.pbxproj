@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4D324DF1BD3F7F200CEB570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D324DE1BD3F7F200CEB570 /* AppDelegate.swift */; };
+		F4D324E11BD3F7F200CEB570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D324E01BD3F7F200CEB570 /* ViewController.swift */; };
+		F4D324E31BD3F7F200CEB570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D324E21BD3F7F200CEB570 /* Assets.xcassets */; };
+		F4D324E61BD3F7F200CEB570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D324E41BD3F7F200CEB570 /* Main.storyboard */; };
+		F4D324F11BD3F7F200CEB570 /* iThumbOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D324F01BD3F7F200CEB570 /* iThumbOSXTests.swift */; };
+		F4D324FC1BD3F7F200CEB570 /* iThumbOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D324FB1BD3F7F200CEB570 /* iThumbOSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4D324ED1BD3F7F200CEB570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D324D31BD3F7F200CEB570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D324DA1BD3F7F200CEB570;
+			remoteInfo = iThumbOSX;
+		};
+		F4D324F81BD3F7F200CEB570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D324D31BD3F7F200CEB570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D324DA1BD3F7F200CEB570;
+			remoteInfo = iThumbOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4D324DB1BD3F7F200CEB570 /* iThumbOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iThumbOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D324DE1BD3F7F200CEB570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4D324E01BD3F7F200CEB570 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4D324E21BD3F7F200CEB570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D324E51BD3F7F200CEB570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4D324E71BD3F7F200CEB570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D324EC1BD3F7F200CEB570 /* iThumbOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iThumbOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D324F01BD3F7F200CEB570 /* iThumbOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iThumbOSXTests.swift; sourceTree = "<group>"; };
+		F4D324F21BD3F7F200CEB570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D324F71BD3F7F200CEB570 /* iThumbOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iThumbOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D324FB1BD3F7F200CEB570 /* iThumbOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iThumbOSXUITests.swift; sourceTree = "<group>"; };
+		F4D324FD1BD3F7F200CEB570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D324D81BD3F7F200CEB570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D324E91BD3F7F200CEB570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D324F41BD3F7F200CEB570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4D324D21BD3F7F200CEB570 = {
+			isa = PBXGroup;
+			children = (
+				F4D324DD1BD3F7F200CEB570 /* iThumbOSX */,
+				F4D324EF1BD3F7F200CEB570 /* iThumbOSXTests */,
+				F4D324FA1BD3F7F200CEB570 /* iThumbOSXUITests */,
+				F4D324DC1BD3F7F200CEB570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D324DC1BD3F7F200CEB570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D324DB1BD3F7F200CEB570 /* iThumbOSX.app */,
+				F4D324EC1BD3F7F200CEB570 /* iThumbOSXTests.xctest */,
+				F4D324F71BD3F7F200CEB570 /* iThumbOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D324DD1BD3F7F200CEB570 /* iThumbOSX */ = {
+			isa = PBXGroup;
+			children = (
+				F4D324DE1BD3F7F200CEB570 /* AppDelegate.swift */,
+				F4D324E01BD3F7F200CEB570 /* ViewController.swift */,
+				F4D324E21BD3F7F200CEB570 /* Assets.xcassets */,
+				F4D324E41BD3F7F200CEB570 /* Main.storyboard */,
+				F4D324E71BD3F7F200CEB570 /* Info.plist */,
+			);
+			path = iThumbOSX;
+			sourceTree = "<group>";
+		};
+		F4D324EF1BD3F7F200CEB570 /* iThumbOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D324F01BD3F7F200CEB570 /* iThumbOSXTests.swift */,
+				F4D324F21BD3F7F200CEB570 /* Info.plist */,
+			);
+			path = iThumbOSXTests;
+			sourceTree = "<group>";
+		};
+		F4D324FA1BD3F7F200CEB570 /* iThumbOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D324FB1BD3F7F200CEB570 /* iThumbOSXUITests.swift */,
+				F4D324FD1BD3F7F200CEB570 /* Info.plist */,
+			);
+			path = iThumbOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D324DA1BD3F7F200CEB570 /* iThumbOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D325001BD3F7F200CEB570 /* Build configuration list for PBXNativeTarget "iThumbOSX" */;
+			buildPhases = (
+				F4D324D71BD3F7F200CEB570 /* Sources */,
+				F4D324D81BD3F7F200CEB570 /* Frameworks */,
+				F4D324D91BD3F7F200CEB570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iThumbOSX;
+			productName = iThumbOSX;
+			productReference = F4D324DB1BD3F7F200CEB570 /* iThumbOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4D324EB1BD3F7F200CEB570 /* iThumbOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D325031BD3F7F200CEB570 /* Build configuration list for PBXNativeTarget "iThumbOSXTests" */;
+			buildPhases = (
+				F4D324E81BD3F7F200CEB570 /* Sources */,
+				F4D324E91BD3F7F200CEB570 /* Frameworks */,
+				F4D324EA1BD3F7F200CEB570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D324EE1BD3F7F200CEB570 /* PBXTargetDependency */,
+			);
+			name = iThumbOSXTests;
+			productName = iThumbOSXTests;
+			productReference = F4D324EC1BD3F7F200CEB570 /* iThumbOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4D324F61BD3F7F200CEB570 /* iThumbOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D325061BD3F7F200CEB570 /* Build configuration list for PBXNativeTarget "iThumbOSXUITests" */;
+			buildPhases = (
+				F4D324F31BD3F7F200CEB570 /* Sources */,
+				F4D324F41BD3F7F200CEB570 /* Frameworks */,
+				F4D324F51BD3F7F200CEB570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D324F91BD3F7F200CEB570 /* PBXTargetDependency */,
+			);
+			name = iThumbOSXUITests;
+			productName = iThumbOSXUITests;
+			productReference = F4D324F71BD3F7F200CEB570 /* iThumbOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D324D31BD3F7F200CEB570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "J&L";
+				TargetAttributes = {
+					F4D324DA1BD3F7F200CEB570 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F4D324EB1BD3F7F200CEB570 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F4D324DA1BD3F7F200CEB570;
+					};
+					F4D324F61BD3F7F200CEB570 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F4D324DA1BD3F7F200CEB570;
+					};
+				};
+			};
+			buildConfigurationList = F4D324D61BD3F7F200CEB570 /* Build configuration list for PBXProject "iThumbOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4D324D21BD3F7F200CEB570;
+			productRefGroup = F4D324DC1BD3F7F200CEB570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D324DA1BD3F7F200CEB570 /* iThumbOSX */,
+				F4D324EB1BD3F7F200CEB570 /* iThumbOSXTests */,
+				F4D324F61BD3F7F200CEB570 /* iThumbOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D324D91BD3F7F200CEB570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D324E31BD3F7F200CEB570 /* Assets.xcassets in Resources */,
+				F4D324E61BD3F7F200CEB570 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D324EA1BD3F7F200CEB570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D324F51BD3F7F200CEB570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D324D71BD3F7F200CEB570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D324E11BD3F7F200CEB570 /* ViewController.swift in Sources */,
+				F4D324DF1BD3F7F200CEB570 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D324E81BD3F7F200CEB570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D324F11BD3F7F200CEB570 /* iThumbOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D324F31BD3F7F200CEB570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D324FC1BD3F7F200CEB570 /* iThumbOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D324EE1BD3F7F200CEB570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D324DA1BD3F7F200CEB570 /* iThumbOSX */;
+			targetProxy = F4D324ED1BD3F7F200CEB570 /* PBXContainerItemProxy */;
+		};
+		F4D324F91BD3F7F200CEB570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D324DA1BD3F7F200CEB570 /* iThumbOSX */;
+			targetProxy = F4D324F81BD3F7F200CEB570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D324E41BD3F7F200CEB570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D324E51BD3F7F200CEB570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D324FE1BD3F7F200CEB570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4D324FF1BD3F7F200CEB570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4D325011BD3F7F200CEB570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iThumbOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.iThumbOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4D325021BD3F7F200CEB570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iThumbOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.iThumbOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4D325041BD3F7F200CEB570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iThumbOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.iThumbOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iThumbOSX.app/Contents/MacOS/iThumbOSX";
+			};
+			name = Debug;
+		};
+		F4D325051BD3F7F200CEB570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iThumbOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.iThumbOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iThumbOSX.app/Contents/MacOS/iThumbOSX";
+			};
+			name = Release;
+		};
+		F4D325071BD3F7F200CEB570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iThumbOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.iThumbOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iThumbOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F4D325081BD3F7F200CEB570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iThumbOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.iThumbOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iThumbOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D324D61BD3F7F200CEB570 /* Build configuration list for PBXProject "iThumbOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D324FE1BD3F7F200CEB570 /* Debug */,
+				F4D324FF1BD3F7F200CEB570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D325001BD3F7F200CEB570 /* Build configuration list for PBXNativeTarget "iThumbOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D325011BD3F7F200CEB570 /* Debug */,
+				F4D325021BD3F7F200CEB570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4D325031BD3F7F200CEB570 /* Build configuration list for PBXNativeTarget "iThumbOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D325041BD3F7F200CEB570 /* Debug */,
+				F4D325051BD3F7F200CEB570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4D325061BD3F7F200CEB570 /* Build configuration list for PBXNativeTarget "iThumbOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D325071BD3F7F200CEB570 /* Debug */,
+				F4D325081BD3F7F200CEB570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D324D31BD3F7F200CEB570 /* Project object */;
+}
